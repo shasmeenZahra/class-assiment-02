@@ -1,0 +1,25 @@
+/* Header.module.css */
+.navbar {
+    background-image:linear-gradient(to bottom right,  #f195b1,#f195b1 );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.navList   {
+    color: #0d0d0e;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav a:hover {
+    color: #ddd;
+}

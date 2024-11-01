@@ -1,0 +1,58 @@
+/* about.module.css */
+
+.container {
+    background: #e70476;
+    padding: 2rem;
+    width: 100%;
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageContainer {
+    height: 100%;
+    width: 50%; /* Full width on small screens */
+}
+
+.profileImage {
+    background-color: #333;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+    text-align: center;
+    width: 100%; /* Full width on small screens */
+    color: white;
+
+}
+
+.content h2 {
+    font-size: 2rem;
+    color:white ;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .aboutSection {
+        flex-direction: row;
+    }
+
+    .imageContainer, .content {
+        width: 50%; /* Set both left and right sections to 50% width */
+    }
+
+    .content {
+        text-align: left;
+        padding: 0 1rem;
+    }
+}

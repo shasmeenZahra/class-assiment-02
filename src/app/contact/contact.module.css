@@ -1,0 +1,79 @@
+/* contact.module.css */
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color:#f7adc3; 
+}
+
+.contactContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.contactImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.contactMain {
+  width: 50%;
+  max-width: 500px;
+  background-color: #f588a9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(12, 12, 12, 0.1);
+}
+
+.contactHeading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.contactCard label {
+  font-size: 0.875rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.contactInput {
+  padding: 0.75rem;
+  border: 1px solid #181717;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #1b1b1b;
+}
+
+.contactButton {
+  padding: 0.75rem;
+  background-color:  #ff8bac;
+  color: #131212;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contactButton:hover {
+  background-color: #eb42c0;
+}
