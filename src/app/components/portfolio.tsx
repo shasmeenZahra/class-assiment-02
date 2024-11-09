@@ -7,28 +7,28 @@ import styles from './portfolio.module.css';
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'A web development project using Next.js and Tailwind CSS.',
-      link: 'https://vercel.com/shasmeen-zahras-projects/new-milestone-05-by-shasmeen-hr5c',
-      image: '/project.jpeg',
+      title: "Project 1",
+      description: "A web development project using Next.js and Tailwind CSS.",
+      link: "https://vercel.com/shasmeen-zahras-projects/new-milestone-05-by-shasmeen-hr5c",
+      image: "/project.jpeg",
     },
     {
-      title: 'Project 2',
-      description: 'A web development project using Next.js and Tailwind CSS.',
-      link: 'https://vercel.com/shasmeen-zahras-projects/new-milestone-05-by-shasmeen-hr5c',
-      image: '/project.jpeg',
+      title: "Project 2",
+      description: "A web development project using Next.js and Tailwind CSS.",
+      link: "https://vercel.com/shasmeen-zahras-projects/new-milestone-05-by-shasmeen-hr5c",
+      image: "/project.jpeg",
     },
     {
-      title: 'Project 3',
-      description: 'A web development project using Next.js and Tailwind CSS.',
-      link: 'https://vercel.com/shasmeen-zahras-projects/milestone-3-by-shasmeen-zahra-fq95',
-      image: '/project.jpeg',
+      title: "Project 3",
+      description: "A web development project using Next.js and Tailwind CSS.",
+      link: "https://vercel.com/shasmeen-zahras-projects/milestone-3-by-shasmeen-zahra-fq95",
+      image: "/project.jpeg",
     },
     {
-      title: 'Project 3',
-      description: 'A web development project using Next.js and Tailwind CSS.',
-      link: 'https://vercel.com/shasmeen-zahras-projects/milestone-3-by-shasmeen-zahra-fq95',
-      image: '/project.jpeg',
+      title: "Project 3",
+      description: "A web development project using Next.js and Tailwind CSS.",
+      link: "https://vercel.com/shasmeen-zahras-projects/milestone-3-by-shasmeen-zahra-fq95",
+      image: "/project.jpeg",
     },
   ];
 
