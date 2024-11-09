@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ profileImage = "/profile4.png" }) => (
         With a strong foundation in HTML, CSS, JavaScript, and frameworks like
         React, I bring ideas to life through responsive, accessible, and modern
         web applications. My goal is to combine creativity with functionality,
-        ensuring every project is both beautiful and user-friendly.
+        ensuring every project is both beautiful and user-friendly."
       </p>
     </div>
     <div className={styles.right}>
