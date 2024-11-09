@@ -33,6 +33,9 @@ const Portfolio = () => {
   ];
 
   return (
+    <Header/>
+    <Footer/>
+    
     <section id="portfolio" className={styles.portfolioSection}>
       <div className={styles.portfolioContainer}>
         <h2 className={styles.portfolioTitle}>My Portfolio</h2>
