@@ -42,7 +42,7 @@ const About: React.FC<aboutProps> = ({ profileImage = "/about.png" }) => {
             <p>
               Every project is an opportunity to craft something unique and
               meaningful. Beyond code, I’m a believer in continuous growth,
-              whether it's through learning new skills, collaborating with
+              whether it’s through learning new skills, collaborating with
               others, or pushing the boundaries of what’s possible in web
               development. I’m excited to connect and work with others who share
               a passion for creating exceptional digital experiences!
