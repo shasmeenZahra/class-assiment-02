@@ -9,7 +9,7 @@ const Hero: React.FC<HeroProps> = ({ profileImage = "/profile4.png" }) => (
   <section className={styles.hero}>
     <div className={styles.left}>
       <h1 className={styles.hello}>Hello</h1>
-      <h2 className={styles.heading}>I'm Shasmeen Zhara </h2>
+      <h2 className={styles.heading}>I am Shasmeen Zhara </h2>
       <h2 className={styles.subheading}>Frontend Developer</h2>
       <p>
         "Hello! I am Shasmeen Zahra, a passionate frontend developer dedicated to
