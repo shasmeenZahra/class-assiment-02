@@ -2,10 +2,10 @@ import Header from "../components/Header";
 import "../globals.css";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import styles from "./contact.module.css"; // Import CSS module
+import styles from "./contact.module.css"; 
 
 interface contactProps {
-  contactImage?: string; // Optional prop to pass a custom image URL if needed
+  contactImage?: string; 
 }
 
 const Contact: React.FC<contactProps> = ({ contactImage = "/contact.png" }) => {
