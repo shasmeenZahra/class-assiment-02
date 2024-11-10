@@ -1,8 +1,8 @@
-
-import Header from './Header';
-import Footer from './Footer';
-import Image from 'next/image';
-import styles from './portfolio.module.css';
+import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import Image from "next/image";
+import styles from "./portfolio.module.css";
 
 const Portfolio = () => {
   const projects = [
@@ -25,7 +25,7 @@ const Portfolio = () => {
       image: "/project.jpeg",
     },
     {
-      title: "Project 4", // Fixed duplicate "Project 3" to "Project 4"
+      title: "Project 4",
       description: "A web development project using Next.js and Tailwind CSS.",
       link: "https://vercel.com/shasmeen-zahras-projects/milestone-3-by-shasmeen-zahra-fq95",
       image: "/project.jpeg",
@@ -33,8 +33,8 @@ const Portfolio = () => {
   ];
 
   return (
-    <div> {/* Added wrapper div */}
-      <Header/>
+    <>
+     <Header />
       <section id="portfolio" className={styles.portfolioSection}>
         <div className={styles.portfolioContainer}>
           <h2 className={styles.portfolioTitle}>My Portfolio</h2>
@@ -52,7 +52,7 @@ const Portfolio = () => {
                   <h3 className={styles.portfolioCardTitle}>{project.title}</h3>
                   <p className={styles.portfolioCardDescription}>{project.description}</p>
                   {project.link && (
-                    <a  {/* Added missing <a tag */}
+                    <a
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -67,7 +67,8 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
-    </div>
+      <Footer />
+    </>
   );
 };
 
